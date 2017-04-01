@@ -1,0 +1,43 @@
+﻿Build started 2017/2/9 9:59:03.
+     1>Project "E:\download\sqlite3\src\sqlite3\sqlite3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D SQLITE_ENABLE_RTREE /D SQLITE_ENABLE_COLUMN_METADATA /D SQLITE_HAS_CODEC /D SQLITE3ENCRYPT_EXPORTS /D SQLITE_ENABLE_FTS3 /D SQLITE_ENABLE_FTS3_PARENTHESIS /D SQLITE_SECURE_DELETE /D SQLITE_SOUNDEX /D CODEC_TYPE=CODEC_TYPE_AES128 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLITE3_EXPORTS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CppSQLite3.cpp
+         CppSQLite3.cpp
+     1>CppSQLite3.cpp(196): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>CppSQLite3.cpp(1078): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\softwore\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>CppSQLite3.cpp(1254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\softwore\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D SQLITE_ENABLE_RTREE /D SQLITE_ENABLE_COLUMN_METADATA /D SQLITE_HAS_CODEC /D SQLITE3ENCRYPT_EXPORTS /D SQLITE_ENABLE_FTS3 /D SQLITE_ENABLE_FTS3_PARENTHESIS /D SQLITE_SECURE_DELETE /D SQLITE_SOUNDEX /D CODEC_TYPE=CODEC_TYPE_AES128 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLITE3_EXPORTS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt sqlite3secure.c
+         sqlite3secure.c
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(31585): warning C4996: 'GetVersionExA': was declared deprecated
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(41139): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(112706): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(113991): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(114042): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115298): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115341): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115424): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115438): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115498): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115750): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115751): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(115798): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(116514): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(116516): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(127432): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(127433): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(127528): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>e:\download\sqlite3\src\sqlite3\sqlite3.c(127531): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(E:\download\sqlite3\src\x64\Debug\sqlite3.lib) does not match the Library's OutputFile property value (E:\download\sqlite3\src\x64\Debug\sqlite3_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(sqlite3) does not match the Library's OutputFile property value (sqlite3_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\download\sqlite3\src\x64\Debug\sqlite3_d.lib" /NOLOGO /MACHINE:X64 x64\Debug\CppSQLite3.obj
+         x64\Debug\sqlite3secure.obj
+         sqlite3.vcxproj -> E:\download\sqlite3\src\x64\Debug\sqlite3.lib
+     1>Done Building Project "E:\download\sqlite3\src\sqlite3\sqlite3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92

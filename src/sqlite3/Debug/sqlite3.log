@@ -1,0 +1,24 @@
+﻿生成启动时间为 2017/2/22 13:24:26。
+     1>项目“D:\StudyProc\VS2013\sqlite3\src\sqlite3\sqlite3.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D SQLITE_ENABLE_RTREE /D SQLITE_ENABLE_COLUMN_METADATA /D SQLITE_HAS_CODEC /D SQLITE3ENCRYPT_EXPORTS /D SQLITE_ENABLE_FTS3 /D SQLITE_ENABLE_FTS3_PARENTHESIS /D SQLITE_SECURE_DELETE /D SQLITE_SOUNDEX /D CODEC_TYPE=CODEC_TYPE_AES128 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLITE3_EXPORTS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CppSQLite3.cpp
+         CppSQLite3.cpp
+     1>d:\studyproc\vs2013\sqlite3\src\sqlite3\cppsqlite3.cpp(1078): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\softwore\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>d:\studyproc\vs2013\sqlite3\src\sqlite3\cppsqlite3.cpp(1254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\softwore\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D SQLITE_ENABLE_RTREE /D SQLITE_ENABLE_COLUMN_METADATA /D SQLITE_HAS_CODEC /D SQLITE3ENCRYPT_EXPORTS /D SQLITE_ENABLE_FTS3 /D SQLITE_ENABLE_FTS3_PARENTHESIS /D SQLITE_SECURE_DELETE /D SQLITE_SOUNDEX /D CODEC_TYPE=CODEC_TYPE_AES128 /D _DEBUG /D _WINDOWS /D _USRDLL /D SQLITE3_EXPORTS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sqlite3secure.c
+         sqlite3secure.c
+     1>d:\studyproc\vs2013\sqlite3\src\sqlite3\sqlite3.c(31585): warning C4996: 'GetVersionExA': 被声明为已否决
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : 参见“GetVersionExA”的声明
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1361,5): warning MSB8012: TargetPath(D:\StudyProc\VS2013\sqlite3\src\Debug\sqlite3.lib) does not match the Library's OutputFile property value (D:\StudyProc\VS2013\sqlite3\src\Debug\sqlite3_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetName(sqlite3) does not match the Library's OutputFile property value (sqlite3_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         D:\softwore\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\StudyProc\VS2013\sqlite3\src\Debug\sqlite3_d.lib" /NOLOGO Debug\CppSQLite3.obj
+         Debug\sqlite3secure.obj
+         sqlite3.vcxproj -> D:\StudyProc\VS2013\sqlite3\src\Debug\sqlite3.lib
+     1>已完成生成项目“D:\StudyProc\VS2013\sqlite3\src\sqlite3\sqlite3.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86
